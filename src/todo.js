@@ -34,6 +34,10 @@ function storeTodo(todo){
 function addTodo(e){
 e.preventDefault()
 const todo = todoInputElement.value
+if(todo.length === 0){
+  alert("empty!!")
+  return
+}
 todoInputElement.value = ''
 const todoList = getTodoList()
 

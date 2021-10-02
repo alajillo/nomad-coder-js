@@ -7,7 +7,7 @@ function getUser(){
   if(user){
     loginElement.innerText = `Hello ${user}`
     removeHide(loginElement)
-    addHide(inputElement)
+    addHide(formElement)
   }
 }
 
