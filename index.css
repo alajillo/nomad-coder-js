@@ -1,0 +1,54 @@
+html,body {
+  margin : 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  display: flex;
+}
+li button {
+  border : none;
+  background: none;
+  margin-right: 10px;
+}
+* {
+  color:  white;
+}
+
+input {
+  color : black;
+}
+
+.hide {
+  display : none;
+}
+
+img {
+  width : 100%;
+  height : 100%;
+  position : absolute;
+  z-index: -1;
+}
+
+h1 {
+  margin : 0
+}
+#weather {
+  margin : 50px auto;
+}
+#time {
+  margin : 50px auto;
+}
+
+#login-form {
+  margin: 10px auto;
+} 
